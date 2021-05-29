@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #bfc1c8 !important;
+  background-color: #1e202b;
+}
+
+ul {
+  list-style: none;
+}
+
+.f10 {
+  font-size: 10px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f20 {
+  font-size: 20px;
+}
+.f28 {
+  font-size: 28px;
+}
+.f60 {
+  font-size: 60px;
+}
+
+.bg-main {
+  background-color: #1e202b;
+}
+
+.bg-h {
+  background-color: #2d303d;
+}
+.bg-p {
+  background-color: #323544;
+}
+
+/***************header**************/
+header img {
+  width: 70px;
+  height: 30px;
+}
+@media all and (min-width: 993px) {
+  .active {
+    color: #009ad8 !important;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid #009ad8;
+  }
+
+  header .inner a {
+    color: white;
+    padding: 5px 10px;
+  }
+
+  header .inner a:hover {
+    color: #009ad8;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid #009ad8;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .active {
+    color: #009ad8 !important;
+    text-decoration: none;
+  }
+  .list {
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #2f313d;
+  }
+  header .inner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  header .inner a {
+    color: white;
+    padding: 5px 10px;
+  }
+
+  header .inner a:hover {
+    text-decoration: none;
+  }
+}
+
+/************main*****************/
+
+main {
+  background-image: url(../image/banner.png);
+  background-repeat: no-repeat;
+}
+
+#alertValid {
+  display: none;
+}
+
+/*************footer*************/
+footer {
+  background-color: #262936;
+}
+
+.social li a {
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  color: #009ad8;
+  background-color: #1e202b;
+  transition: all 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social li a:hover {
+  color: white;
+  background-color: #009ad8;
+}
+/*contact*/
+
+.demo {
+  height: 300px;
+  font-size: 14px;
+}
+
+.demo div {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+}
+
+form input:hover {
+  border: 1px solid #009ad8 !important;
+}
+
+form textarea:hover {
+  border: 1px solid #009ad8 !important;
+}
